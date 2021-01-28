@@ -1,3 +1,5 @@
+# Amazon Elastic Container Service (ECS)
+
 1. Create a Security Group for the ECS Cluster
 
 1. Create a Key Pair for the EC2 instances, inside the ECS Cluster
