@@ -4,11 +4,11 @@
 
 1. Manage access to AWS resources and APIs using identity federation, IAM users, and IAM roles. Establish credential management policies and procedures for creating, distributing, rotating, and revoking AWS access credentials. For more information, see IAM Best Practices in the IAM User Guide.
 
-Implement the least permissive rules for your security group. For more information, see Security group rules.
+1. Implement the least permissive rules for your security group. For more information, see Security group rules.
 
-Regularly patch, update, and secure the operating system and applications on your instance. For more information about updating Amazon Linux 2 or the Amazon Linux AMI, see Manage software on your Linux instance in the Amazon EC2 User Guide for Linux Instances.
+1. Regularly patch, update, and secure the operating system and applications on your instance. For more information about updating Amazon Linux 2 or the Amazon Linux AMI, see Manage software on your Linux instance in the Amazon EC2 User Guide for Linux Instances.
 
-Storage
+# Storage
 
 Understand the implications of the root device type for data persistence, backup, and recovery. For more information, see Storage for the root device.
 
