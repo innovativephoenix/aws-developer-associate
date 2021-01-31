@@ -1,4 +1,4 @@
-- This list of practices will help you get the maximum benefit from Amazon EC2.
+## This list of practices will help you get the maximum benefit from Amazon EC2.
 
 # Security
 
@@ -18,13 +18,13 @@ Use the instance store available for your instance to store temporary data. Reme
 
 Encrypt EBS volumes and snapshots. For more information, see Amazon EBS encryption.
 
-Resource management
+# Resource management
 
 Use instance metadata and custom resource tags to track and identify your AWS resources. For more information, see Instance metadata and user data and Tag your Amazon EC2 resources.
 
 View your current limits for Amazon EC2. Plan to request any limit increases in advance of the time that you'll need them. For more information, see Amazon EC2 service quotas.
 
-Backup and recovery
+# Backup and recovery
 
 Regularly back up your EBS volumes using Amazon EBS snapshots, and create an Amazon Machine Image (AMI) from your instance to save the configuration as a template for launching future instances.
 
@@ -38,6 +38,6 @@ Ensure that you are prepared to handle failover. For a basic solution, you can m
 
 Regularly test the process of recovering your instances and Amazon EBS volumes if they fail.
 
-Networking
+# Networking
 
 Set the time-to-live (TTL) value for your applications to 255, for IPv4 and IPv6. If you use a smaller value, there is a risk that the TTL will expire while application traffic is in transit, causing reachability issues for your instances.
