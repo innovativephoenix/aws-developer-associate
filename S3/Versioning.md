@@ -1,4 +1,4 @@
-** What is Versioning?
+# What is Versioning?
 
 Versioning is a means for keeping multiple variants of the same object in the bucket.
 
@@ -17,3 +17,12 @@ A drawback of having multiple versions of an object is you are billed multiple t
 In order to avoid having multiple versions of the same object, S3 has a feature called Lifecycle  Management. This allows us to decide on what to do when multiple versions of an object are piling up.
 
 One advantage of versioning is, we can provide permissions on versioned objects i.e., we can define which version of an object is public and which one is private.
+
+## Task Details
+
+Log into the AWS Management Console.
+Create an S3 bucket.
+Enable object versioning on the bucket.
+Upload a text file to the S3 Bucket.
+Test object versioning by changing the text file and re-uploading it.
+
